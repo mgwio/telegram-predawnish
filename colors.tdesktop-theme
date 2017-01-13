@@ -1,0 +1,406 @@
+////////////////////////////////////////////////////////////////////////////////
+// Predawn-ish for Telegram Desktop
+////////////////////////////////////////////////////////////////////////////////
+
+// #D16A47
+// #92BFBFCB
+// #F18260 - Predawn
+// #F5F5AE - Pale Yellow
+// #EDE480 - Yellow
+// #F49D62 - Orange
+// #CF5340 - Red
+// #893121 - Dark Red
+// #55201B - Maroon
+// #BDDCDC - Pale Blue
+// #92BFBF - Blue
+// #5F777E - Slate
+// #B4D388 - Green
+// #D0EDA7 - Pale Green
+// #809161 - Dark Green
+
+// #151515 - Black
+// #232323 - Grey 9
+// #252525 - Grey 8
+// #282828 - Grey 7
+// #3C3C3C - Grey 6
+// #4C4C4C - Grey 5
+// #777777 - Grey 4
+// #999999 - Grey 3
+// #DDDDDD - Grey 2
+// #F1F1F1 - Grey 1
+
+predawn:  #f18260;
+base02:  #d16a47;
+base03:  #282828;
+base0:   #878787;
+base1:   #4c4c4c;
+base2:   #EEE8D5;
+base3:   #FDF6E3;
+yellow:  #F5F5AE;
+orange:  #D16A47;
+red:     #893121;
+magenta: #55201B;
+violet:  #5F777E;
+blue:    #85AEAE;
+cyan:    #D0EDA7;
+green:   #809161;
+
+windowBg: base03;                                   // Window backgrounds
+windowFg: base0;                                    // Main text / chat text
+windowBgOver: base03;                               // Search bar background
+nullWindowBgOver: base03;                           // Title bar / Mouse over backgrounds, etc
+windowBgRipple: predawn;                            // Mouse click chats list background
+windowFgOver: windowFg;
+windowSubTextFg: base0;                             // Chats list message preview text
+windowSubTextFgOver: base1;                         // Mouse over chats list message preview text
+windowBoldFg: base1;                                // Chats list chat name text
+windowBoldFgOver: base2;                            // Mouse over chats list chat name text
+windowBgActive: blue;                               // Active button background
+windowFgActive: base2;                              // Active selected chats list text / button text
+windowActiveTextFg: #CA6D51;                        // Online status, links, recording cancel, etc
+windowShadowFg: base03;                             // Window border shadows
+windowShadowFgFallback: predawn;                    // Notification border
+shadowFg: #93a1a155;                                // Internal border shadows
+slideFadeOutBg: #0000003c;
+slideFadeOutShadowFg: #000000;                      // Window slide animation shadow
+imageBg: #000000;
+imageBgTransparent: #555555;
+activeButtonBg: #CA6D51;                            // Currently selected button background
+activeButtonBgOver: #5F777E;                        // Mouse over currently selected button background
+activeButtonBgRipple: windowBgRipple;               // Mouse click currently selected button background
+activeButtonFg: #FCFCFC;                            // Currently selected button text
+activeButtonFgOver: activeButtonFg;                 // Mouse over currently selected button text
+activeButtonSecondaryFg: base1;
+activeButtonSecondaryFgOver: activeButtonSecondaryFg;
+activeLineFg: blue;
+activeLineFgError: red;
+lightButtonBg: #CA6D51;                             // Default button background
+lightButtonBgOver: #5F777E;                         // Mouse over button background
+lightButtonBgRipple: #5F6C76;                       // Mouse click button background
+lightButtonFg: #FCFCFC;
+lightButtonFgOver: lightButtonFg;
+attentionButtonFg: #FCFCFC;
+attentionButtonFgOver: #FCFCFC;
+attentionButtonBgOver: #55201B;
+attentionButtonBgRipple: #893121;
+outlineButtonBg: windowBg;
+outlineButtonBgOver: lightButtonBgOver;
+outlineButtonOutlineFg: windowBgActive;
+outlineButtonBgRipple: lightButtonBgRipple;
+menuBg: windowBg;
+menuBgOver: nullWindowBgOver;
+menuBgRipple: windowBgRipple;
+menuIconFg: #CA6D51;                                // Menu/paperclip/voice/etc icon buttons
+menuIconFgOver: #D16A47;                            // Mouse over menu/paperclip/voice/etc icon buttons
+menuSubmenuArrowFg: #373737;
+menuFgDisabled: #cccccc;
+menuSeparatorFg: #f1f1f1;
+scrollBarBg: #CA6D5183;                             // Scrollbar current position
+scrollBarBgOver: #CA6D51A3;                         // Scrollbar background
+scrollBg: #D16A475a;                                // Mouse over scrollbar current position
+scrollBgOver: #D16A475a;                            // Mouse over scrollbar background
+smallCloseIconFg: #c7c7c7;
+smallCloseIconFgOver: #a3a3a3;
+radialFg: windowFgActive;
+radialBg: #00000056;
+placeholderFg: #5F777ECF;                           // Inactive input box placeholder text
+placeholderFgActive: #5F777E;                       // Active input box placeholder text
+inputBorderFg: #e0e0e0;
+filterInputBorderFg: #5F777E;                       // Search box border
+checkboxFg: #b3b3b3;
+sliderBgInactive: #5F777E;                          // Inactive media player button (prev/next song)
+sliderBgActive: windowBgActive;                     // Active media player button (prev/next song)
+tooltipBg: #eef2f5;
+tooltipFg: #5d6c80;
+tooltipBorderFg: #c9d1db;
+titleBg: nullWindowBgOver;                          // Title bar
+titleShadow: #00000003;
+titleButtonFg: #ababab;                             // Title bar buttons (min/max/close)
+titleButtonBgOver: #e5e5e5;
+titleButtonFgOver: #9a9a9a;
+titleButtonCloseBgOver: red;
+titleButtonCloseFgOver: windowFgActive;
+titleFgActive: #5F777E;                             // Active title bar text (Mac)
+titleFg: #BDDCDC;                                   // Inactive title bar text (Mac)
+trayCounterBg: red;
+trayCounterBgMute: #888888;
+trayCounterFg: #ffffff;
+trayCounterBgMacInvert: #ffffff;
+trayCounterFgMacInvert: #ffffff01;
+layerBg: #0000007f;
+cancelIconFg: menuIconFg;
+cancelIconFgOver: menuIconFgOver;
+boxBg: windowBg;                                    // Popup box background
+boxTextFg: windowFg;
+boxTextFgGood: green;
+boxTextFgError: red;
+boxTitleFg: windowBoldFg;                           // Popup box titles (contacts/sessions/etc boxes)
+boxSearchBg: boxBg;
+boxSearchCancelIconFg: cancelIconFg;
+boxSearchCancelIconFgOver: cancelIconFgOver;
+boxTitleAdditionalFg: #808080;
+boxTitleCloseFg: cancelIconFg;
+boxTitleCloseFgOver: cancelIconFgOver;
+membersAboutLimitFg: windowSubTextFgOver;
+contactsBg: windowBg;                               // Contacts list background
+contactsBgOver: nullWindowBgOver;                   // Contacts list mouse over background
+contactsNameFg: boxTextFg;
+contactsStatusFg: windowSubTextFg;                  // Contacts list last seen
+contactsStatusFgOver: windowSubTextFgOver;
+contactsStatusFgOnline: windowActiveTextFg;
+photoCropFadeBg: layerBg;
+photoCropPointFg: #ffffff7f;
+introBg: windowBg;
+introTitleFg: windowBoldFg;
+introDescriptionFg: windowSubTextFg;
+introErrorFg: windowSubTextFg;
+introCoverTopBg: #0f89d0;
+introCoverBottomBg: #39b0f0;
+introCoverIconsFg: #5ec6ff;
+introCoverPlaneTrace: #5ec6ff69;
+introCoverPlaneInner: #c6d8e8;
+introCoverPlaneOuter: #a1bed4;
+introCoverPlaneTop: #ffffff;
+dialogsMenuIconFg: menuIconFg;
+dialogsMenuIconFgOver: menuIconFgOver;
+dialogsBg: windowBg;                                // Chats list background
+dialogsNameFg: windowBoldFg;
+dialogsChatIconFg: dialogsNameFg;
+dialogsDateFg: blue;                                // Chats list date text
+dialogsTextFg: windowSubTextFg;                     // Chats list message preview text
+dialogsTextFgService: windowActiveTextFg;           // Chats list message preview sender name
+dialogsDraftFg: orange;                             // Chats list message preview for drafts
+dialogsVerifiedIconBg: windowBgActive;
+dialogsVerifiedIconFg: windowFgActive;
+dialogsSendingIconFg: #c1c1c1;
+dialogsSentIconFg: #CA6D51;
+dialogsUnreadBg: windowBgActive;                    // Chats list unread counter background
+dialogsUnreadBgMuted: #6C7983;                      // Chats list muted unread counter background
+dialogsUnreadFg: #DEDEDE;                           // Chats list unread counter text
+dialogsBgOver: nullWindowBgOver;                    // Chats list mouse over background
+dialogsNameFgOver: windowBoldFgOver;
+dialogsChatIconFgOver: dialogsNameFgOver;
+dialogsDateFgOver: blue;
+dialogsTextFgOver: dialogsTextFg;
+dialogsTextFgServiceOver: #CA6D51;                  // Mouse over chats list message preview sender name
+dialogsDraftFgOver: dialogsDraftFg;
+dialogsVerifiedIconBgOver: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgOver: dialogsVerifiedIconFg;
+dialogsSendingIconFgOver: dialogsSendingIconFg;
+dialogsSentIconFgOver: dialogsSentIconFg;
+dialogsUnreadBgOver: dialogsUnreadBg;
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
+dialogsUnreadFgOver: dialogsUnreadFg;
+dialogsBgActive: #CA6D51;                           // Currently selected chat in chats list
+dialogsNameFgActive: windowFgActive;
+dialogsChatIconFgActive: dialogsNameFgActive;
+dialogsDateFgActive: windowFgActive;
+dialogsTextFgActive: windowFgActive;
+dialogsTextFgServiceActive: dialogsTextFgActive;
+dialogsDraftFgActive: #c6e1f7;
+dialogsVerifiedIconBgActive: dialogsTextFgActive;
+dialogsVerifiedIconFgActive: dialogsBgActive;
+dialogsSendingIconFgActive: #ffffff99;
+dialogsSentIconFgActive: dialogsTextFgActive;
+dialogsUnreadBgActive: dialogsTextFgActive;
+dialogsUnreadBgMutedActive: dialogsDraftFgActive;
+dialogsUnreadFgActive: dialogsBgActive;
+dialogsForwardBg: dialogsBgActive;
+dialogsForwardFg: dialogsNameFgActive;
+searchedBarBg: #2a2a2a;                             // Search results background
+searchedBarBorder: shadowFg;
+searchedBarFg: #5F777E;                             // Search results text
+topBarBg: windowBg;                                 // Chat header background
+emojiPanBg: windowBg;                               // Sticker panel background
+emojiPanCategories: #1F2C36; // windowBg;           // Sticker panel bottom bar background
+emojiPanHeaderFg: windowSubTextFg;                  // Sticker panel title text
+emojiPanHeaderBg: #1F2C36f2; // emojiPanBg;         // Sticker panel top bar background
+stickerPanDeleteBg: #000000cc;
+stickerPanDeleteFg: windowFgActive;
+stickerPreviewBg: #1F2C36b0;                        // Sticker preview background
+historyTextInFg: windowFg;
+historyTextOutFg: windowFg;
+historyCaptionInFg: historyTextInFg;
+historyCaptionOutFg: historyTextOutFg;
+historyFileNameInFg: historyTextInFg;
+historyFileNameOutFg: historyTextOutFg;
+historyOutIconFg: dialogsSentIconFg;
+historyOutIconFgSelected: #CA6D51;
+historyIconFgInverted: windowFgActive;
+historySendingOutIconFg: #9dc2d9;
+historySendingInIconFg: #a0adb5;
+historySendingInvertedIconFg: #ffffffc8;
+historySystemBg: #89a0b47f;
+historySystemBgSelected: #bbc8d4a2;
+historySystemFg: windowFgActive;
+historyUnreadBarBg: #394650;
+historyUnreadBarBorder: shadowFg;
+historyUnreadBarFg: #5F777E;
+historyForwardChooseBg: #0000004c;
+historyForwardChooseFg: windowFgActive;
+historyPeer1NameFg: violet;                         // Group chat sender name
+historyPeer1UserpicBg: violet;
+historyPeer2NameFg: green;
+historyPeer2UserpicBg: green;
+historyPeer3NameFg: violet;
+historyPeer3UserpicBg: violet;
+historyPeer4NameFg: blue;
+historyPeer4UserpicBg: blue;
+historyPeer5NameFg: #92BFBF;
+historyPeer5UserpicBg: #92BFBF;
+historyPeer6NameFg: orange;
+historyPeer6UserpicBg: orange;
+historyPeer7NameFg: green;
+historyPeer7UserpicBg: green;
+historyPeer8NameFg: predawn;
+historyPeer8UserpicBg: predawn;
+historyPeerUserpicFg: windowFgActive;
+historyScrollBarBg: #CA6D5183;
+historyScrollBarBgOver: #CA6D51A3;
+historyScrollBg: #D16A475A;
+historyScrollBgOver: #D16A475A;
+msgInBg: windowBg;                                  // Incoming message background
+msgInBgSelected: #394650;                           // Selected incoming message background
+msgOutBg: windowBg;                                 // Outgoing message background
+msgOutBgSelected: #394650;                          // Selected outgoing message background
+msgSelectOverlay: #D16A474c;
+msgStickerOverlay: #CA6D517f;                       // Selected sticker overlay
+msgInServiceFg: windowActiveTextFg;                 // Incoming reply quoted name
+msgInServiceFgSelected: windowActiveTextFg;         // Selected incoming reply quoted name
+msgOutServiceFg: windowActiveTextFg;                // Outgoing reply quoted name
+msgOutServiceFgSelected: windowActiveTextFg;        // Selected outgoing reply quoted name
+msgInShadow: #5F777E29;                             // Incoming message box shadow
+msgInShadowSelected: #5F777E29;                     // Selected incoming message box shadow
+msgOutShadow: #D16A4729;                            // Outgoing message box shadow
+msgOutShadowSelected: #D16A4769;                    // Selected outgoing message box shadow
+msgInDateFg: #5F777E;                               // Incoming message date text
+msgInDateFgSelected: #BDDCDC;
+msgOutDateFg: #CA6D51;                              // Outgoing message date text
+msgOutDateFgSelected: #D16A47;
+msgServiceFg: #D5D5D5;                              // Chat service message text (join/part/date/etc)
+msgServiceBg: #5F777Ecf;
+msgServiceBgSelected: #BddCDCa2;
+msgInReplyBarColor: activeLineFg;
+msgInReplyBarSelColor: activeLineFg;
+msgOutReplyBarColor: historyOutIconFg;
+msgOutReplyBarSelColor: historyOutIconFgSelected;
+msgImgReplyBarColor: msgServiceFg;
+msgInMonoFg: cyan;                                  // Incoming monospaced / code text
+msgOutMonoFg: cyan;                                 // Outgoing monospaced / code text
+msgDateImgFg: msgServiceFg;
+msgDateImgBg: #5F777EB4;                            // Download / play / etc overlay backgrounds
+msgDateImgBgOver: #5F777ED4;                        // Mouse over download / play / etc overlay backgrounds
+msgDateImgBgSelected: #1c4a7187;
+msgFileThumbLinkInFg: lightButtonFg;
+msgFileThumbLinkInFgSelected: lightButtonFgOver;
+msgFileThumbLinkOutFg: lightButtonFg;
+msgFileThumbLinkOutFgSelected: lightButtonFgOver;
+msgFileInBg: windowBgActive;
+msgFileInBgOver: #5F777E;
+msgFileInBgSelected: #5F777ECF;
+msgFileOutBg: windowBgActive;
+msgFileOutBgOver: #5F777E;
+msgFileOutBgSelected: #5F777ECF;
+msgFile1Bg: #72b1df;                                // ???
+msgFile1BgDark: #5c9ece;
+msgFile1BgOver: #5294c4;
+msgFile1BgSelected: #5099d0;
+msgFile2Bg: #61b96e;
+msgFile2BgDark: #4da859;
+msgFile2BgOver: #44a050;
+msgFile2BgSelected: #46a07e;
+msgFile3Bg: #e47272;
+msgFile3BgDark: #cd5b5e;
+msgFile3BgOver: #c35154;
+msgFile3BgSelected: #9f6a82;
+msgFile4Bg: #efc274;
+msgFile4BgDark: #e6a561;
+msgFile4BgOver: #dc9c5a;
+msgFile4BgSelected: #b19d84;
+msgWaveformInActive: windowBgActive;
+msgWaveformInActiveSelected: violet;
+msgWaveformInInactive: #d4dee6;
+msgWaveformInInactiveSelected: blue;
+msgWaveformOutActive: windowBgActive;
+msgWaveformOutActiveSelected: violet;
+msgWaveformOutInactive: blue;
+msgWaveformOutInactiveSelected: violet;
+msgBotKbOverBgAdd: #ffffff20;
+msgBotKbIconFg: msgServiceFg;
+msgBotKbRippleBg: #00000020;
+mediaInFg: msgInDateFg;
+mediaInFgSelected: msgInDateFgSelected;
+mediaOutFg: msgOutDateFg;
+mediaOutFgSelected: msgOutDateFgSelected;
+youtubePlayIconBg: #e83131c8;
+youtubePlayIconFg: windowFgActive;
+videoPlayIconBg: #0000007f;
+videoPlayIconFg: #ffffff;
+toastBg: #000000b2;
+toastFg: windowFgActive;
+reportSpamBg: emojiPanHeaderBg;
+reportSpamFg: windowFg;
+historyToDownShadow: #00000040;
+historyComposeAreaBg: msgInBg;
+historyComposeAreaFg: historyTextInFg;
+historyComposeAreaFgService: msgInDateFg;
+historyComposeIconFg: menuIconFg;
+historyComposeIconFgOver: menuIconFgOver;
+historySendIconFg: windowBgActive;
+historySendIconFgOver: windowBgActive;
+historyPinnedBg: historyComposeAreaBg;
+historyReplyBg: historyComposeAreaBg;
+historyReplyCancelFg: cancelIconFg;
+historyReplyCancelFgOver: cancelIconFgOver;
+historyComposeButtonBg: historyComposeAreaBg;
+historyComposeButtonBgOver: nullWindowBgOver;
+historyComposeButtonBgRipple: windowBgRipple;
+overviewCheckBg: #00000040;
+overviewCheckFg: windowBg;
+overviewCheckFgActive: windowBg;
+overviewPhotoSelectOverlay: #40ace333;
+profileStatusFgOver: #7c99b2;
+notificationsBoxMonitorFg: windowFg;
+notificationsBoxScreenBg: dialogsBgActive;
+notificationSampleUserpicFg: windowBgActive;
+notificationSampleCloseFg: #d7d7d7; // windowSubTextFg;
+notificationSampleTextFg: #d7d7d7; // windowSubTextFg;
+notificationSampleNameFg: #939393; // windowSubTextFg;
+mainMenuBg: windowBg;                               // Main menu background (contacts/settings/version/etc)
+mainMenuCoverBg: dialogsBgActive;
+mainMenuCoverFg: windowFgActive;
+mediaPlayerBg: windowBg;                            // Music player background
+mediaPlayerActiveFg: windowBgActive;
+mediaPlayerInactiveFg: sliderBgInactive;
+mediaPlayerDisabledFg: #5F777E;
+mediaviewFileBg: windowBg;
+mediaviewFileNameFg: windowFg;
+mediaviewFileSizeFg: windowSubTextFg;
+mediaviewFileRedCornerFg: red;
+mediaviewFileYellowCornerFg: yellow;
+mediaviewFileGreenCornerFg: green;
+mediaviewFileBlueCornerFg: violet;
+mediaviewFileExtFg: activeButtonFg;
+mediaviewMenuBg: #383838;
+mediaviewMenuBgOver: #505050;
+mediaviewMenuBgRipple: #676767;
+mediaviewMenuFg: windowFgActive;
+mediaviewBg: #222222eb;
+mediaviewVideoBg: imageBg;
+mediaviewControlBg: #0000003c;
+mediaviewControlFg: windowFgActive;
+mediaviewCaptionBg: #11111180;
+mediaviewCaptionFg: mediaviewControlFg;
+mediaviewTextLinkFg: violet;
+mediaviewSaveMsgBg: toastBg;
+mediaviewSaveMsgFg: toastFg;
+mediaviewPlaybackActive: #c7c7c7;
+mediaviewPlaybackInactive: #252525;
+mediaviewPlaybackActiveOver: #ffffff;
+mediaviewPlaybackInactiveOver: #474747;
+mediaviewPlaybackProgressFg: #ffffffc7;
+mediaviewPlaybackIconFg: mediaviewPlaybackActive;
+mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
+mediaviewTransparentBg: #ffffff;
+mediaviewTransparentFg: #cccccc;
+notificationBg: windowBg;                           // Notification background
