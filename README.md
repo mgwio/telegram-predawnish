@@ -1,4 +1,4 @@
 ### Telegram-Predawnish
-Predawn-inspired theme for Telegram Messenger.
+[Predawn](https://github.com/jamiewilson/predawn)-inspired theme for Telegram Messenger.
 
-![screenshot](https://raw.githubusercontent.com/miwu/Telegram-Predawnsih/master/preview.png)
+![screenshot](https://raw.githubusercontent.com/miwu/telegram-predawnish/master/preview.png)
