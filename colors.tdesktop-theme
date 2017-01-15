@@ -48,24 +48,27 @@ green:   #809161;
 
 windowBg: base03;                                   // Window backgrounds
 windowFg: base0;                                    // Main text / chat text
-windowBgOver: base03;                               // Search bar background
+windowBgOver: #2f2f2f;                              // Search bar background
 nullWindowBgOver: base03;                           // Title bar / Mouse over backgrounds, etc
 windowBgRipple: predawn;                            // Mouse click chats list background
 windowFgOver: windowFg;
 windowSubTextFg: base0;                             // Chats list message preview text
-windowSubTextFgOver: base1;                         // Mouse over chats list message preview text
-windowBoldFg: base1;                                // Chats list chat name text
+windowSubTextFgOver: base0;                         // Mouse over chats list message preview text
+windowBoldFg: #646464;                              // Chats list chat name text
 windowBoldFgOver: base2;                            // Mouse over chats list chat name text
 windowBgActive: blue;                               // Active button background
 windowFgActive: base2;                              // Active selected chats list text / button text
 windowActiveTextFg: #CA6D51;                        // Online status, links, recording cancel, etc
 windowShadowFg: base03;                             // Window border shadows
 windowShadowFgFallback: predawn;                    // Notification border
+
 shadowFg: #93a1a155;                                // Internal border shadows
 slideFadeOutBg: #0000003c;
 slideFadeOutShadowFg: #000000;                      // Window slide animation shadow
+
 imageBg: #000000;
 imageBgTransparent: #555555;
+
 activeButtonBg: #CA6D51;                            // Currently selected button background
 activeButtonBgOver: #5F777E;                        // Mouse over currently selected button background
 activeButtonBgRipple: windowBgRipple;               // Mouse click currently selected button background
@@ -75,19 +78,23 @@ activeButtonSecondaryFg: base1;
 activeButtonSecondaryFgOver: activeButtonSecondaryFg;
 activeLineFg: blue;
 activeLineFgError: red;
+
 lightButtonBg: #CA6D51;                             // Default button background
 lightButtonBgOver: #5F777E;                         // Mouse over button background
 lightButtonBgRipple: #5F6C76;                       // Mouse click button background
 lightButtonFg: #FCFCFC;
 lightButtonFgOver: lightButtonFg;
+
 attentionButtonFg: #FCFCFC;
 attentionButtonFgOver: #FCFCFC;
 attentionButtonBgOver: #55201B;
 attentionButtonBgRipple: #893121;
+
 outlineButtonBg: windowBg;
 outlineButtonBgOver: lightButtonBgOver;
 outlineButtonOutlineFg: windowBgActive;
 outlineButtonBgRipple: lightButtonBgRipple;
+
 menuBg: windowBg;
 menuBgOver: nullWindowBgOver;
 menuBgRipple: windowBgRipple;
@@ -96,24 +103,31 @@ menuIconFgOver: #D16A47;                            // Mouse over menu/paperclip
 menuSubmenuArrowFg: #373737;
 menuFgDisabled: #cccccc;
 menuSeparatorFg: #f1f1f1;
+
 scrollBarBg: #CA6D5183;                             // Scrollbar current position
 scrollBarBgOver: #CA6D51A3;                         // Scrollbar background
 scrollBg: #D16A475a;                                // Mouse over scrollbar current position
 scrollBgOver: #D16A475a;                            // Mouse over scrollbar background
+
 smallCloseIconFg: #c7c7c7;
 smallCloseIconFgOver: #a3a3a3;
+
 radialFg: windowFgActive;
 radialBg: #00000056;
+
 placeholderFg: #5F777ECF;                           // Inactive input box placeholder text
 placeholderFgActive: #5F777E;                       // Active input box placeholder text
 inputBorderFg: #e0e0e0;
 filterInputBorderFg: #5F777E;                       // Search box border
 checkboxFg: #b3b3b3;
+
 sliderBgInactive: #5F777E;                          // Inactive media player button (prev/next song)
 sliderBgActive: windowBgActive;                     // Active media player button (prev/next song)
+
 tooltipBg: #eef2f5;
 tooltipFg: #5d6c80;
 tooltipBorderFg: #c9d1db;
+
 titleBg: nullWindowBgOver;                          // Title bar
 titleShadow: #00000003;
 titleButtonFg: #ababab;                             // Title bar buttons (min/max/close)
@@ -123,14 +137,18 @@ titleButtonCloseBgOver: red;
 titleButtonCloseFgOver: windowFgActive;
 titleFgActive: #5F777E;                             // Active title bar text (Mac)
 titleFg: #BDDCDC;                                   // Inactive title bar text (Mac)
+
 trayCounterBg: red;
 trayCounterBgMute: #888888;
 trayCounterFg: #ffffff;
 trayCounterBgMacInvert: #ffffff;
 trayCounterFgMacInvert: #ffffff01;
+
 layerBg: #0000007f;
+
 cancelIconFg: menuIconFg;
 cancelIconFgOver: menuIconFgOver;
+
 boxBg: windowBg;                                    // Popup box background
 boxTextFg: windowFg;
 boxTextFgGood: green;
@@ -139,18 +157,23 @@ boxTitleFg: windowBoldFg;                           // Popup box titles (contact
 boxSearchBg: boxBg;
 boxSearchCancelIconFg: cancelIconFg;
 boxSearchCancelIconFgOver: cancelIconFgOver;
+
 boxTitleAdditionalFg: #808080;
 boxTitleCloseFg: cancelIconFg;
 boxTitleCloseFgOver: cancelIconFgOver;
+
 membersAboutLimitFg: windowSubTextFgOver;
+
 contactsBg: windowBg;                               // Contacts list background
-contactsBgOver: nullWindowBgOver;                   // Contacts list mouse over background
+contactsBgOver: windowBgOver;                       // Contacts list mouse over background
 contactsNameFg: boxTextFg;
 contactsStatusFg: windowSubTextFg;                  // Contacts list last seen
 contactsStatusFgOver: windowSubTextFgOver;
 contactsStatusFgOnline: windowActiveTextFg;
+
 photoCropFadeBg: layerBg;
 photoCropPointFg: #ffffff7f;
+
 introBg: windowBg;
 introTitleFg: windowBoldFg;
 introDescriptionFg: windowSubTextFg;
@@ -162,6 +185,7 @@ introCoverPlaneTrace: #5ec6ff69;
 introCoverPlaneInner: #c6d8e8;
 introCoverPlaneOuter: #a1bed4;
 introCoverPlaneTop: #ffffff;
+
 dialogsMenuIconFg: menuIconFg;
 dialogsMenuIconFgOver: menuIconFgOver;
 dialogsBg: windowBg;                                // Chats list background
@@ -178,6 +202,7 @@ dialogsSentIconFg: #CA6D51;
 dialogsUnreadBg: windowBgActive;                    // Chats list unread counter background
 dialogsUnreadBgMuted: #6C7983;                      // Chats list muted unread counter background
 dialogsUnreadFg: #DEDEDE;                           // Chats list unread counter text
+
 dialogsBgOver: nullWindowBgOver;                    // Chats list mouse over background
 dialogsNameFgOver: windowBoldFgOver;
 dialogsChatIconFgOver: dialogsNameFgOver;
@@ -193,6 +218,7 @@ dialogsUnreadBgOver: dialogsUnreadBg;
 dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
 dialogsUnreadFgOver: dialogsUnreadFg;
 dialogsBgActive: #CA6D51;                           // Currently selected chat in chats list
+//dialogsNameFgActive: windowFgActive;
 dialogsNameFgActive: windowFgActive;
 dialogsChatIconFgActive: dialogsNameFgActive;
 dialogsDateFgActive: windowFgActive;
@@ -206,19 +232,25 @@ dialogsSentIconFgActive: dialogsTextFgActive;
 dialogsUnreadBgActive: dialogsTextFgActive;
 dialogsUnreadBgMutedActive: dialogsDraftFgActive;
 dialogsUnreadFgActive: dialogsBgActive;
+
 dialogsForwardBg: dialogsBgActive;
 dialogsForwardFg: dialogsNameFgActive;
+
 searchedBarBg: #2a2a2a;                             // Search results background
 searchedBarBorder: shadowFg;
 searchedBarFg: #5F777E;                             // Search results text
+
 topBarBg: windowBg;                                 // Chat header background
-emojiPanBg: windowBg;                               // Sticker panel background
-emojiPanCategories: #1F2C36; // windowBg;           // Sticker panel bottom bar background
+
+emojiPanBg: #2b2b2b;                               // Sticker panel background
+emojiPanCategories: base03; // windowBg;            // Sticker panel bottom bar background
 emojiPanHeaderFg: windowSubTextFg;                  // Sticker panel title text
-emojiPanHeaderBg: #1F2C36f2; // emojiPanBg;         // Sticker panel top bar background
+emojiPanHeaderBg: base03; // emojiPanBg;            // Sticker panel top bar background
+
 stickerPanDeleteBg: #000000cc;
 stickerPanDeleteFg: windowFgActive;
-stickerPreviewBg: #1F2C36b0;                        // Sticker preview background
+stickerPreviewBg: #2b2b2bcc;                        // Sticker preview background
+
 historyTextInFg: windowFg;
 historyTextOutFg: windowFg;
 historyCaptionInFg: historyTextInFg;
@@ -239,6 +271,7 @@ historyUnreadBarBorder: shadowFg;
 historyUnreadBarFg: #5F777E;
 historyForwardChooseBg: #0000004c;
 historyForwardChooseFg: windowFgActive;
+
 historyPeer1NameFg: violet;                         // Group chat sender name
 historyPeer1UserpicBg: violet;
 historyPeer2NameFg: green;
@@ -256,10 +289,12 @@ historyPeer7UserpicBg: green;
 historyPeer8NameFg: predawn;
 historyPeer8UserpicBg: predawn;
 historyPeerUserpicFg: windowFgActive;
+
 historyScrollBarBg: #CA6D5183;
 historyScrollBarBgOver: #CA6D51A3;
 historyScrollBg: #D16A475A;
 historyScrollBgOver: #D16A475A;
+
 msgInBg: windowBg;                                  // Incoming message background
 msgInBgSelected: #394650;                           // Selected incoming message background
 msgOutBg: windowBg;                                 // Outgoing message background
@@ -292,6 +327,7 @@ msgDateImgFg: msgServiceFg;
 msgDateImgBg: #5F777EB4;                            // Download / play / etc overlay backgrounds
 msgDateImgBgOver: #5F777ED4;                        // Mouse over download / play / etc overlay backgrounds
 msgDateImgBgSelected: #1c4a7187;
+
 msgFileThumbLinkInFg: lightButtonFg;
 msgFileThumbLinkInFgSelected: lightButtonFgOver;
 msgFileThumbLinkOutFg: lightButtonFg;
@@ -318,6 +354,7 @@ msgFile4Bg: #efc274;
 msgFile4BgDark: #e6a561;
 msgFile4BgOver: #dc9c5a;
 msgFile4BgSelected: #b19d84;
+
 msgWaveformInActive: windowBgActive;
 msgWaveformInActiveSelected: violet;
 msgWaveformInInactive: #d4dee6;
@@ -326,22 +363,27 @@ msgWaveformOutActive: windowBgActive;
 msgWaveformOutActiveSelected: violet;
 msgWaveformOutInactive: blue;
 msgWaveformOutInactiveSelected: violet;
+
 msgBotKbOverBgAdd: #ffffff20;
 msgBotKbIconFg: msgServiceFg;
 msgBotKbRippleBg: #00000020;
+
 mediaInFg: msgInDateFg;
 mediaInFgSelected: msgInDateFgSelected;
 mediaOutFg: msgOutDateFg;
 mediaOutFgSelected: msgOutDateFgSelected;
+
 youtubePlayIconBg: #e83131c8;
 youtubePlayIconFg: windowFgActive;
 videoPlayIconBg: #0000007f;
 videoPlayIconFg: #ffffff;
 toastBg: #000000b2;
 toastFg: windowFgActive;
+
 reportSpamBg: emojiPanHeaderBg;
 reportSpamFg: windowFg;
-historyToDownShadow: #00000040;
+
+historyToDownShadow: #D16A4729;
 historyComposeAreaBg: msgInBg;
 historyComposeAreaFg: historyTextInFg;
 historyComposeAreaFgService: msgInDateFg;
@@ -353,9 +395,11 @@ historyPinnedBg: historyComposeAreaBg;
 historyReplyBg: historyComposeAreaBg;
 historyReplyCancelFg: cancelIconFg;
 historyReplyCancelFgOver: cancelIconFgOver;
+
 historyComposeButtonBg: historyComposeAreaBg;
 historyComposeButtonBgOver: nullWindowBgOver;
 historyComposeButtonBgRipple: windowBgRipple;
+
 overviewCheckBg: #00000040;
 overviewCheckFg: windowBg;
 overviewCheckFgActive: windowBg;
@@ -367,9 +411,11 @@ notificationSampleUserpicFg: windowBgActive;
 notificationSampleCloseFg: #d7d7d7; // windowSubTextFg;
 notificationSampleTextFg: #d7d7d7; // windowSubTextFg;
 notificationSampleNameFg: #939393; // windowSubTextFg;
+
 mainMenuBg: windowBg;                               // Main menu background (contacts/settings/version/etc)
 mainMenuCoverBg: dialogsBgActive;
 mainMenuCoverFg: windowFgActive;
+
 mediaPlayerBg: windowBg;                            // Music player background
 mediaPlayerActiveFg: windowBgActive;
 mediaPlayerInactiveFg: sliderBgInactive;
